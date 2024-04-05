@@ -3,6 +3,7 @@
 
 struct node
 {
+    
     struct node *link;
     char name[25], usn[15], programme[10];
     int sem;
